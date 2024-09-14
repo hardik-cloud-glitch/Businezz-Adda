@@ -8,3 +8,21 @@ document.addEventListener("DOMContentLoaded", () => {
         toggleButton.classList.toggle("active");
     });
 });
+
+
+const material = document.getElementById('material');
+material.addEventListener('click', function () {
+    window.location = 'material.html'
+})
+
+document.getElementById('enquiry').addEventListener('click', function () {
+    window.location = 'contact.html'
+})
+
+document.getElementById('about').addEventListener('click', function () {
+    window.location = 'about.html'
+})
+
+document.getElementById('feedback').addEventListener('click', function () {
+    window.location = 'contact.html'
+})
